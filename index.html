@@ -75,7 +75,7 @@
     <div class="reviews">
       <div class="container">
         <h2 class="section-title">Довольные коты</h2>
-        <a class="btn" href="#" title="Посмотреть все отзывы">Все отзывы</a>
+        <a class="btn to-all-reviews" href="#" title="Посмотреть все отзывы">Все отзывы</a>
         <div class="reviews-list clearfix">
           <blockquote class="review-item">
             <p>Спасибо Кексу за давно напрашивающуюся идею! Набрал себе очков на все случаи жизни: для чтения и для вечеринки с котанами B-)</p>
@@ -93,7 +93,7 @@
     <div class="popular-and-price">
       <div class="container">
         <h2 class="section-title">Популярные товары</h2>
-        <a class="btn" href="#" title="Посмотреть все товары">Каталог</a>
+        <a class="btn to-catalog" href="#" title="Посмотреть все товары">Каталог</a>
         <div class="popular-items clearfix">
           <div class="catalog-item">
             <img src="img/glasses-1.jpg" alt="очки «Классика жанра»" width="306" height="206">
@@ -129,26 +129,26 @@
           <tr>
             <td class="price-number">1.</td>
             <td class="price-name">Стрижка</td>
-            <td>Грумер</td>
-            <td>500 руб.</td>
+            <td class="price-master">Грумер</td>
+            <td class="price-cost">500 руб.</td>
           </tr>
           <tr>
             <td class="price-number">2.</td>
             <td class="price-name">Заточка когтей</td>
-            <td>Грумер</td>
-            <td>300 руб.</td>
+            <td class="price-master">Грумер</td>
+            <td class="price-cost">300 руб.</td>
           </tr>
           <tr>
             <td class="price-number">3.</td>
             <td class="price-name">Накрутка усов</td>
-            <td>Грумер</td>
-            <td>100 руб.</td>
+            <td class="price-master">Грумер</td>
+            <td class="price-cost">100 руб.</td>
           </tr>
           <tr>
             <td class="price-number">4.</td>
             <td class="price-name">Подбор аксессуаров</td>
-            <td>Стилист</td>
-            <td>1550 руб.</td>
+            <td class="price-master">Стилист</td>
+            <td class="price-cost">1550 руб.</td>
           </tr>
         </table>
       </div>
@@ -164,13 +164,15 @@
             <label for="fullname">Представьтесь, пожалуйста:</label>
             <input type="text" name="fullname" id="fullname">
           </div>
-          <div class="feedback-form-group">
-            <label for="phone">Контактный телефон:</label>
-            <input type="text" name="phone" id="phone">
-          </div>
-          <div class="feedback-form-group">
-            <label for="email">Электронная почта:</label>
-            <input type="text" name="email" id="email">
+          <div class="clearfix">
+            <div class="feedback-form-group feedback-form-group-left-part">
+              <label for="phone">Контактный телефон:</label>
+              <input type="text" name="phone" id="phone">
+            </div>
+            <div class="feedback-form-group feedback-form-group-right-part">
+              <label for="email">Электронная почта:</label>
+              <input type="text" name="email" id="email">
+            </div>
           </div>
           <div class="checkbox-area">
             <label>
@@ -232,9 +234,9 @@
         <div class="footer-bottom clearfix">
           <div class="footer-social">
             <b>Давайте дружить!</b>
-            <a class="social-btn" href="https://vk.com/htmlacademy">Вконтакте</a>
-            <a class="social-btn" href="https://facebook.com/htmlacademy">Фейсбук</a>
-            <a class="social-btn" href="https://instagram.com/htmlacademy">Инстаграм</a>
+            <a class="social-btn social-btn-vk" href="https://vk.com/htmlacademy">Вконтакте</a>
+            <a class="social-btn social-btn-fb" href="https://facebook.com/htmlacademy">Фейсбук</a>
+            <a class="social-btn social-btn-in" href="https://instagram.com/htmlacademy">Инстаграм</a>
           </div>
           <div class="footer-copyright">
             С <span class="heart">любовью</span> для <a href="https://htmlacademy.ru">HTML Academy</a>
