@@ -1,3 +1,3 @@
-# kup86.github.keksby
+# kirill-petrov.github.keksby
 Практика — Кексби
 Кирилл Петров
